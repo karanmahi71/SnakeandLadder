@@ -8,6 +8,12 @@ namespace SnakeandLadder
 {
     public class Game
     {
-        int playerPosition = 0;
+        public int DieRoll()
+        {
+            Random random = new Random();
+            random.Next(1, 7);
+            return dieCount;
+
+        }
     }
 }
